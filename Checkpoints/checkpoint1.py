@@ -164,6 +164,8 @@ players = [
 
 
 # Write your solution below:
+players = [{**player, "name": player["name"].strip().title()} for player in players]
+
 # 1
 players_names = [player["name"].strip().title() for player in players]
 print(players_names)
@@ -175,7 +177,8 @@ active_players = [
 print(active_players)
 
 # 3
-print(sorted(players, key=lambda player: player["score"], reverse=True))
+players = sorted(players, key=lambda player: player["score"], reverse=True)
+print(players)
 
 # 4
 for i, player in enumerate(players, start=1):
