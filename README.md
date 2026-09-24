@@ -10,6 +10,8 @@ This repository contains a set of Python exercises and practice labs.
 - `Lab4/` - Functions
 - `Lab5/` - Scope and Flexible Function Arguments
 - `Lab6/` - Comprehensions, Enumeration, Zip and Sorting
+- `Lab7/` - Classes and Objects
+- `Lab8/` - Object-Oriented Programming
 - `Checkpoints/` - checkpoint-style practice files
 
 ## Running the labs
