@@ -12,6 +12,7 @@ This repository contains a set of Python exercises and practice labs.
 - `Lab6/` - Comprehensions, Enumeration, Zip and Sorting
 - `Lab7/` - Classes and Objects
 - `Lab8/` - Object-Oriented Programming
+- `Lab9/` - Polymorphism, Inheritance and Composition
 - `Checkpoints/` - checkpoint-style practice files
 
 ## Running the labs
