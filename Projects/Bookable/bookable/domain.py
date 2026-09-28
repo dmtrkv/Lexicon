@@ -34,7 +34,7 @@ class BookableItem:
 
         if not isinstance(price, (int, float)):
             raise ValueError("price must be a number")
-        if not price < 0:
+        if price < 0:
             raise ValueError("price must be a non-negative")
 
         self.id = item_id
