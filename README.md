@@ -14,6 +14,7 @@ This repository contains a set of Python exercises and practice labs.
 - `Lab8/` - Object-Oriented Programming
 - `Lab9/` - Polymorphism, Inheritance and Composition
 - `Checkpoints/` - checkpoint-style practice files
+- `Projects/` - custom projects
 
 ## Running the labs
 
