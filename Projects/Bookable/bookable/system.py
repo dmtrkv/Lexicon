@@ -1,4 +1,4 @@
-"""In-memory ownership and lookup for booking domain objects."""
+"""Booking lifecycle operations."""
 
 from datetime import datetime
 
@@ -12,6 +12,7 @@ class BookingSystem:
         self._customers = {}
         self._bookable_items = {}
         self._bookings = {}
+        self._next_booking_number = 1
 
     def register_customer(self, customer):
         """Register a customer, rejecting an ID that is already in use."""
@@ -52,6 +53,77 @@ class BookingSystem:
         """Return a registered booking, or None if the ID is unknown."""
         return self._bookings.get(booking_id)
 
+    def create_booking(self, customer, item, start, end):
+        """Create and register a booking for a registered customer and item."""
+        self.validate_period(start, end)
+        if not isinstance(customer, Customer):
+            raise TypeError("customer must be a Customer")
+        if self._customers.get(customer.id) is not customer:
+            raise ValueError(
+                "customer is not registered: {}".format(customer.id))
+        if not isinstance(item, BookableItem):
+            raise TypeError("item must be a BookableItem")
+        if self._bookable_items.get(item.id) is not item:
+            raise ValueError(
+                "bookable item is not registered: {}".format(item.id))
+        if not self.is_available(item, start, end):
+            raise ValueError(
+                "bookable item is not available for requested period")
+
+        booking_number = self._next_booking_number
+        booking_id = "booking-{}".format(booking_number)
+        while booking_id in self._bookings:
+            booking_number += 1
+            booking_id = "booking-{}".format(booking_number)
+
+        booking = Booking(booking_id, customer, item, start, end)
+        self._bookings[booking.id] = booking
+        self._next_booking_number = booking_number + 1
+        return booking
+
+    def cancel_booking(self, booking_id):
+        """Cancel a registered active booking and return it."""
+        booking = self.get_registered_booking(booking_id)
+        if booking.status != "active":
+            if booking.status == "cancelled":
+                raise ValueError(
+                    "booking is already cancelled: {}".format(booking.id))
+            raise ValueError("booking is not active: {}".format(booking.id))
+
+        booking.status = "cancelled"
+        return booking
+
+    def change_booking_period(self, booking_id, start, end):
+        """Change an active booking's period after checking availability."""
+        booking = self.get_registered_booking(booking_id)
+        if booking.status != "active":
+            if booking.status == "cancelled":
+                raise ValueError(
+                    "cancelled booking cannot be changed: {}".format(
+                        booking.id)
+                )
+            raise ValueError("booking is not active: {}".format(booking.id))
+        self.validate_period(start, end)
+        if not self._is_available(booking.item, start, end, booking):
+            raise ValueError(
+                "bookable item is not available for requested period")
+
+        booking.start = start
+        booking.end = end
+        return booking
+
+    def get_registered_booking(self, booking_id):
+        """Return a registered booking or raise a clear validation error."""
+        if not isinstance(booking_id, str):
+            raise TypeError("booking_id must be a string")
+        if not booking_id.strip():
+            raise ValueError("booking_id must be a non-empty string")
+        booking = self._bookings.get(booking_id)
+        if booking is None:
+            raise ValueError(
+                "booking is not registered: {}".format(booking_id))
+        return booking
+
     @staticmethod
     def validate_period(start, end):
         """Reject invalid or incomparable start/end datetime values."""
@@ -70,6 +142,10 @@ class BookingSystem:
         Periods are half-open: a booking ending at ``start`` or starting at
         ``end`` does not conflict.
         """
+        return self._is_available(item, start, end)
+
+    def _is_available(self, item, start, end, ignored_booking=None):
+        """Check availability, optionally ignoring one booking being changed."""
         self.validate_period(start, end)
         if not isinstance(item, BookableItem):
             raise TypeError("item must be a BookableItem")
@@ -78,6 +154,8 @@ class BookingSystem:
                 "bookable item is not registered: {}".format(item.id))
 
         for booking in self._bookings.values():
+            if booking is ignored_booking:
+                continue
             if booking.item.id == item.id and booking.status == "active":
                 try:
                     overlaps = booking.start < end and start < booking.end
