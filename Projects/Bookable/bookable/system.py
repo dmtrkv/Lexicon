@@ -174,3 +174,41 @@ class BookingSystem:
             item for item in self._bookable_items.values()
             if self.is_available(item, start, end)
         ]
+
+    def calculate_booking_cost(self, booking_id):
+        """Return a booking's cost using complete elapsed hours and hourly price.
+
+        Partial hours are excluded. The result is the numeric product of
+        complete elapsed hours and the item's current price.
+        """
+        booking = self.get_registered_booking(booking_id)
+        duration = booking.end - booking.start
+        whole_hours = duration.days * 24 + duration.seconds // 3600
+        return whole_hours * booking.item.price
+
+    def search_bookings(self, customer_id=None, item_id=None, status=None):
+        """Return bookings matching any supplied filters, in registration order."""
+        if customer_id is not None:
+            if not isinstance(customer_id, str):
+                raise TypeError("customer_id must be a string")
+            if not customer_id.strip():
+                raise ValueError("customer_id must be a non-empty string")
+
+        if item_id is not None:
+            if not isinstance(item_id, str):
+                raise TypeError("item_id must be a string")
+            if not item_id.strip():
+                raise ValueError("item_id must be a non-empty string")
+
+        if status is not None:
+            if not isinstance(status, str):
+                raise TypeError("status must be a string")
+            if status not in ("active", "cancelled"):
+                raise ValueError("status must be 'active' or 'cancelled'")
+
+        return [
+            booking for booking in self._bookings.values()
+            if (customer_id is None or booking.customer.id == customer_id)
+            and (item_id is None or booking.item.id == item_id)
+            and (status is None or booking.status == status)
+        ]
