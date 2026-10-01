@@ -1,4 +1,4 @@
-"""Init module for the booking system proof of concept."""
+"""Init module for the booking system."""
 
 from .domain import BOOKING_STATUSES, BookableItem, Booking, Customer
 from .system import BookingSystem

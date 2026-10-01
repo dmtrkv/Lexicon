@@ -6,7 +6,7 @@ from .domain import BookableItem, Booking, Customer
 
 
 class BookingSystem:
-    """Store customers, bookable items, and bookings."""
+    """Store customers, bookable items, and bookings for this process."""
 
     def __init__(self):
         self._customers = {}
@@ -83,7 +83,7 @@ class BookingSystem:
 
     def cancel_booking(self, booking_id):
         """Cancel a registered active booking and return it."""
-        booking = self.get_registered_booking(booking_id)
+        booking = self._get_registered_booking(booking_id)
         if booking.status != "active":
             if booking.status == "cancelled":
                 raise ValueError(
@@ -95,7 +95,7 @@ class BookingSystem:
 
     def change_booking_period(self, booking_id, start, end):
         """Change an active booking's period after checking availability."""
-        booking = self.get_registered_booking(booking_id)
+        booking = self._get_registered_booking(booking_id)
         if booking.status != "active":
             if booking.status == "cancelled":
                 raise ValueError(
@@ -112,7 +112,7 @@ class BookingSystem:
         booking.end = end
         return booking
 
-    def get_registered_booking(self, booking_id):
+    def _get_registered_booking(self, booking_id):
         """Return a registered booking or raise a clear validation error."""
         if not isinstance(booking_id, str):
             raise TypeError("booking_id must be a string")
@@ -139,8 +139,8 @@ class BookingSystem:
     def is_available(self, item, start, end):
         """Return whether a registered item has no active booking overlap.
 
-        Periods are half-open: a booking ending at ``start`` or starting at
-        ``end`` does not conflict.
+        Period endpoints are inclusive, so bookings sharing an endpoint
+        conflict.
         """
         return self._is_available(item, start, end)
 
@@ -157,12 +157,7 @@ class BookingSystem:
             if booking is ignored_booking:
                 continue
             if booking.item.id == item.id and booking.status == "active":
-                try:
-                    overlaps = booking.start < end and start < booking.end
-                except (TypeError, ValueError):
-                    raise ValueError(
-                        "requested and booked datetimes must be comparable"
-                    )
+                overlaps = booking.start <= end and start <= booking.end
                 if overlaps:
                     return False
         return True
@@ -181,7 +176,7 @@ class BookingSystem:
         Partial hours are excluded. The result is the numeric product of
         complete elapsed hours and the item's current price.
         """
-        booking = self.get_registered_booking(booking_id)
+        booking = self._get_registered_booking(booking_id)
         duration = booking.end - booking.start
         whole_hours = duration.days * 24 + duration.seconds // 3600
         return whole_hours * booking.item.price
@@ -212,3 +207,30 @@ class BookingSystem:
             and (item_id is None or booking.item.id == item_id)
             and (status is None or booking.status == status)
         ]
+
+    def summarize_items(self, start, end):
+        """Return available and booked items for a requested period.
+
+        Each item appears once, in registration order. An item is booked when
+        an active booking overlaps the requested period, including shared
+        start or end endpoints.
+        """
+        self.validate_period(start, end)
+        available_items = []
+        booked_items = []
+
+        for item in self._bookable_items.values():
+            if self.is_available(item, start, end):
+                available_items.append(item)
+            else:
+                booked_items.append(item)
+
+        return available_items, booked_items
+
+    def get_customers(self):
+        """Return registered customers in registration order."""
+        return list(self._customers.values())
+
+    def get_bookable_items(self):
+        """Return registered bookable items in registration order."""
+        return list(self._bookable_items.values())

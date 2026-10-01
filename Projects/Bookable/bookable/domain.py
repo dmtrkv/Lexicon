@@ -1,6 +1,4 @@
-"""Core booking domain objects: 
-   Customer, BookableItem and Booking.
-"""
+"""Booking domain objects"""
 
 from datetime import datetime
 

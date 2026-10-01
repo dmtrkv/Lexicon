@@ -1,9 +1,11 @@
 """Command-line entry point for the booking system."""
 
+from .app import run_menu
+
 
 def main():
-    """Start the proof of concept."""
-    print("Booking system is ready.")
+    """Start the interactive demo."""
+    run_menu()
 
 
 if __name__ == "__main__":
