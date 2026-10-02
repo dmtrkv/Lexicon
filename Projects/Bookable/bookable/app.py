@@ -3,12 +3,12 @@
 from datetime import date, datetime, time, timedelta
 
 from .domain import BookableItem, Customer
-from .system import BookingSystem
+from .service import BookingService
 
 
 def create_demo_system():
     """Create a booking system with sample customers and bookable items."""
-    system = BookingSystem()
+    system = BookingService()
     system.register_customer(Customer("customer-1", "Ann"))
     system.register_customer(Customer("customer-2", "Bob"))
     system.register_bookable_item(
@@ -41,7 +41,7 @@ def _read_period():
         end = datetime.fromisoformat(end_text) if end_text else default_end
     except ValueError:
         raise ValueError("enter dates as YYYY-MM-DD [HH:MM]")
-    BookingSystem.validate_period(start, end)
+    BookingService.validate_period(start, end)
     return start, end
 
 
