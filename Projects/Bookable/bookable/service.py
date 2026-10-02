@@ -5,7 +5,7 @@ from datetime import datetime
 from .domain import BookableItem, Booking, Customer
 
 
-class BookingSystem:
+class BookingService:
     """Store customers, bookable items, and bookings for this process."""
 
     def __init__(self):
