@@ -1,4 +1,4 @@
-# python -m API.Lab1.lab1
+# from Labs/ python -m API.Lab1.lab1
 
 from ..api import get_json
 from pprint import pprint
