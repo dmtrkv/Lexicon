@@ -29,13 +29,11 @@ def get_coordinates(city):
         return latitude, longitude
     return None
     
-latitude, longitude = get_coordinates("Stockholm")
-
 # 2 Get the weather for those coordinates
 # Call the forecast endpoint with the params latitude, longitude and current set to
 # temperature_2m,wind_speed_10m. Print the whole answer first. You will find a key
 # current with the values you want, and a key current_units that tells you the units.
-def get_forecast(latitude, longitude):
+def print_forecast(latitude, longitude):
     response = get_json(
         "https://api.open-meteo.com/v1/forecast",
         params={"latitude": latitude, "longitude": longitude,
@@ -53,11 +51,15 @@ def get_forecast(latitude, longitude):
 # 8.4°C, wind 12.3 km/h. Tip: put each of the two requests in its own function, for
 # example find_city(name) and get_weather(lat, lon).
 city = input("Input a city: ")
-latitude, longitude = get_coordinates(city)
-get_forecast(latitude, longitude)
+coordinates = get_coordinates(city)
+if coordinates is not None:
+    latitude, longitude = coordinates
+    print_forecast(latitude, longitude)
 
 # 4 Handle a city that does not exist
 # What happens if the user types a city that does not exist? Handle it so the program
 # prints a message and does not crash. Hint: print the answer for a city that does not
 # exist, for example asdfghjkl, and look at what is different compared with a city that
 # does exist.
+else:
+    print("Unknown city")
