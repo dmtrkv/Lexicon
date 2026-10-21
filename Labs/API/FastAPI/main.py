@@ -1,5 +1,18 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import Depends, FastAPI, HTTPException, Header
 from pydantic import BaseModel
+
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY")
+if not API_KEY:
+    raise ValueError("API key is missing.")
+
+
+def check_api_key(x_api_key: str | None = Header(default=None)):
+    if x_api_key != API_KEY:
+        raise HTTPException(status_code=401)
 
 
 app = FastAPI()
@@ -55,7 +68,7 @@ class Movie(BaseModel):
     year: int
 
 
-@app.post("/movies", status_code=201)
+@app.post("/movies", status_code=201, dependencies=[Depends(check_api_key)])
 def add_movie(movie: Movie):
     new_id = max(m["id"] for m in movies) + 1
     new_movie = {
@@ -68,7 +81,7 @@ def add_movie(movie: Movie):
     return new_movie
 
 
-@app.put("/movies/{movie_id}")
+@app.put("/movies/{movie_id}", dependencies=[Depends(check_api_key)])
 def update_movie(movie_id: int, updated_movie: Movie):
     movie = find_movie(movie_id)
     movie["title"] = updated_movie.title
@@ -77,19 +90,19 @@ def update_movie(movie_id: int, updated_movie: Movie):
     return movie
 
 
-@app.delete("/movies/{movie_id}", status_code=204)
+@app.delete("/movies/{movie_id}", status_code=204, dependencies=[Depends(check_api_key)])
 def delete_movie(movie_id: int):
     movie = find_movie(movie_id)
     movies.remove(movie)
 
-
+# 1 PATCH
 class MovieUpdate(BaseModel):
     title: str | None = None
     director: str | None = None
     year: int | None = None
 
 
-@app.patch("/movies/{movie_id}")
+@app.patch("/movies/{movie_id}", dependencies=[Depends(check_api_key)])
 def partial_movie_update(movie_id: int, movie_update: MovieUpdate):
     movie = find_movie(movie_id)
     movie.update(movie_update.model_dump(exclude_unset=True))
