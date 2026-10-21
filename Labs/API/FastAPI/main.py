@@ -81,3 +81,33 @@ def update_movie(movie_id: int, updated_movie: Movie):
 def delete_movie(movie_id: int):
     movie = find_movie(movie_id)
     movies.remove(movie)
+
+
+class MovieUpdate(BaseModel):
+    title: str | None = None
+    director: str | None = None
+    year: int | None = None
+
+
+@app.patch("/movies/{movie_id}")
+def partial_movie_update(movie_id: int, movie_update: MovieUpdate):
+    movie = find_movie(movie_id)
+    movie.update(movie_update.model_dump(exclude_unset=True))
+    return movie
+
+
+# 2 Test that only one field changes
+# In /docs, send a body that only contains {"year": 2000}. Check with GET /movies/1
+# that the title and the director are unchanged.
+pass
+
+# 3 Test the edges
+# What happens with an empty body {}? And with a year written as text ('abc')? And with an id
+# that does not exist? Write down the status code for each.
+# 200, 422, 404
+
+# 4 Explain the difference
+# Write two sentences, as a comment in your code, about when you would use PUT and
+# when you would use PATCH.
+# PUT - updating all fields (i.e. replacing entity)
+# PATCH - updating particular fields
