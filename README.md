@@ -1,30 +1,42 @@
-# Lexicon Python Labs
+# Lexicon
 
-This repository contains a set of Python exercises and practice labs.
+Lexicon is a collection of Python learning labs and small projects. The exercises cover Python fundamentals, databases, and web APIs. Most files are independent examples or exercises; run them individually from the repository root.
 
-## Project structure
+## Repository structure
 
-- `Labs/Python/Lab1/` - Python Basics
-- `Labs/Python/Lab2/` - Collections in Python
-- `Labs/Python/Lab3/` - Conditions and Loops
-- `Labs/Python/Lab4/` - Functions
-- `Labs/Python/Lab5/` - Scope and Flexible Function Arguments
-- `Labs/Python/Lab6/` - Comprehensions, Enumeration, Zip and Sorting
-- `Labs/Python/Lab7/` - Classes and Objects
-- `Labs/Python/Lab8/` - Object-Oriented Programming
-- `Labs/Python/Lab9/` - Polymorphism, Inheritance and Composition
-- `Labs/SQL/` - SQL exercises
-- `Checkpoints/` - checkpoint-style practice files
-- `Projects/Bookable/` - booking system project
+- `Labs/Python/` — nine labs covering basics, collections, control flow, functions, scope, comprehensions, classes, and object-oriented programming.
+- `Labs/SQL/` — SQL practice, including webshop and cinema examples.
+- `Labs/NoSQL/` — MongoDB connection, query, and webshop seed exercises.
+- `Labs/API/` — HTTP client exercises, API integrations, and a FastAPI movie API.
+- `Checkpoints/` — checkpoint-style Python practice.
+- `Projects/Bookable/` — an interactive in-memory booking system demo.
 
-## Running the labs
+## Requirements
 
-From the project root, run a file with Python, for example:
+Use Python 3.10 or later for the API examples (they use modern type hints). The booking demo supports Python 3.8 or later. Some labs need third-party packages or local services:
+
+- HTTP labs: `requests`
+- GitHub token and FastAPI labs: `python-dotenv`
+- FastAPI server: `fastapi` and `uvicorn`
+- MongoDB labs: `pymongo` and a MongoDB server at `mongodb://localhost:27017/`
+- SQL labs use SQLite and SQL scripts; a database browser or the `sqlite3` command-line tool may be useful.
+
+Install only the dependencies needed for the lab you plan to run. For example:
 
 ```bash
-python "Labs/Python/Lab1/lab1.py"
+python -m pip install requests python-dotenv
+```
+
+## Running examples
+
+Run a standalone Python lab from the repository root:
+
+```bash
+python Labs/Python/Lab1/lab1.py
 ```
 
 ## Notes
 
-- `pass` indicates that the task was straightforward enough to be solved immediately
+- Database and network exercises may need a local database service or an internet connection.
+- The MongoDB seed script drops and recreates the `customers`, `products`, and `orders` collections in its `webshop` database. Use it only when you intend to reset that sample data.
+- Some exercise files contain unfinished prompts or commented-out solutions; they are intended for practice rather than as a complete application.
