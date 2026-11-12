@@ -1,0 +1,298 @@
+customer_id, city     , age
+C0001      , Göteborg ,  41
+C0002      , Västerås , 999
+C0003      , Stockholm,  38
+C0004      , Västerås ,  54
+C0005      , Göteborg ,  31
+C0006      ,          ,  40
+C0007      , Stockholm,  39
+C0008      , Stockholm,  50
+C0009      , Linköping,  53
+C0009      , Linköping,  53
+C0010      , Uppsala  ,  47
+C0010      , Uppsala  ,  47
+C0011      , Umeå     ,  25
+C0012      , Stockholm,  57
+C0013      , Örebro   ,  30
+C0014      , Göteborg ,  30
+C0015      , Västerås ,  36
+C0016      , Malmö    ,    
+C0017      , Stockholm,    
+C0018      , Uppsala  ,  31
+C0019      , Stockholm,  18
+C0020      , Göteborg ,  30
+C0021      , Linköping,  39
+C0022      , Stockholm,  46
+C0023      , Malmö    ,  43
+C0024      , Malmö    ,    
+C0025      , Stockholm,  16
+C0026      , Uppsala  ,  44
+C0027      , Uppsala  ,  51
+C0028      , Malmö    ,  54
+C0029      , Stockholm,  26
+C0030      , Uppsala  ,  44
+C0031      , Malmö    ,  30
+C0032      , Uppsala  ,  39
+C0033      , Linköping,  53
+C0034      , Stockholm, 999
+C0036      , Stockholm,  24
+C0037      , Umeå     ,  41
+C0038      , Malmö    ,   0
+C0039      , Malmö    ,    
+C0040      , Örebro   ,  17
+C0041      , Göteborg ,  24
+C0042      , Uppsala  ,  45
+C0043      ,          ,  34
+C0044      , Örebro   ,    
+C0045      , Stockholm, 999
+C0046      , Stockholm,  40
+C0047      , Göteborg ,  37
+C0048      , Umeå     ,  47
+C0049      , Umeå     ,  27
+C0050      , Malmö    ,    
+C0051      , Malmö    ,  49
+C0052      , Uppsala  ,  30
+C0054      , Göteborg ,  51
+C0055      , Västerås ,  28
+C0056      , Göteborg ,  47
+C0057      , Stockholm,  41
+C0058      ,          ,  16
+C0059      , Örebro   ,  31
+C0060      , Stockholm,  25
+C0061      , Stockholm,  47
+C0062      , Uppsala  ,  53
+C0063      , Västerås ,  45
+C0064      , Stockholm,  31
+C0065      , Göteborg ,  34
+C0066      , Stockholm,  22
+C0067      , Göteborg ,  40
+C0068      , Göteborg ,  62
+C0069      , Umeå     ,  33
+C0070      , Stockholm,  38
+C0070      , Stockholm,  38
+C0071      , Linköping,  36
+C0072      , Stockholm,  38
+C0073      , Uppsala  ,  38
+C0074      , Göteborg ,    
+C0075      ,          ,  37
+C0076      , Malmö    ,  33
+C0077      , Stockholm,  53
+C0078      ,          ,  48
+C0079      , Göteborg ,  16
+C0080      , Linköping,  61
+C0081      , Malmö    ,  40
+C0082      , Stockholm,  43
+C0083      , Uppsala  ,  44
+C0084      , Uppsala  ,  32
+C0085      , Uppsala  ,  46
+C0086      , Stockholm,  29
+C0087      , Stockholm,  26
+C0088      , Uppsala  ,  49
+C0089      , Malmö    , 999
+C0090      , Örebro   ,    
+C0091      , Göteborg ,  51
+C0092      , Uppsala  ,  33
+C0093      , Stockholm,  16
+C0094      , Stockholm,  56
+C0095      , Stockholm,  33
+C0096      , Göteborg ,  20
+C0097      , Linköping,  35
+C0097      , Linköping,  35
+C0098      , Göteborg , 999
+C0099      , Stockholm,  38
+C0100      , Uppsala  ,    
+C0101      , Linköping,  48
+C0102      , Göteborg ,  40
+C0103      , Göteborg ,    
+C0104      ,          ,  30
+C0105      , Stockholm,  50
+C0106      , Göteborg ,  53
+C0107      , Stockholm,  36
+C0108      ,          ,  37
+C0109      , Stockholm,  30
+C0110      , Stockholm,    
+C0111      , Uppsala  ,    
+C0112      , Stockholm,  21
+C0114      , Malmö    ,  38
+C0115      , Göteborg , 999
+C0117      , Stockholm,  35
+C0118      , Uppsala  ,    
+C0119      , Umeå     ,  34
+C0120      , Örebro   ,    
+C0121      , Stockholm,  32
+C0122      , Malmö    ,  43
+C0123      ,          ,  30
+C0124      , Stockholm,  27
+C0125      , Stockholm,  41
+C0126      , Göteborg ,    
+C0127      , Umeå     ,  44
+C0128      , Stockholm,  48
+C0129      ,          ,  33
+C0130      , Göteborg ,  39
+C0131      , Örebro   ,   0
+C0132      , Göteborg ,  29
+C0133      , Stockholm,  36
+C0134      , Stockholm,  38
+C0135      , Stockholm,  31
+C0136      , Stockholm,  51
+C0137      , Stockholm,  45
+C0138      , Örebro   ,  38
+C0139      , Malmö    ,  27
+C0140      , Stockholm,  45
+C0141      ,          ,  38
+C0142      , Malmö    ,  36
+C0143      , Göteborg ,  16
+C0144      , Malmö    ,  44
+C0145      , Stockholm, 999
+C0146      , Linköping,  52
+C0147      , Göteborg ,  28
+C0148      , Stockholm,  44
+C0149      ,          ,  31
+C0150      , Göteborg ,  43
+C0151      , Malmö    ,    
+C0153      , Linköping,  23
+C0154      , Stockholm,    
+C0155      , Göteborg ,  39
+C0156      , Linköping,  29
+C0157      , Västerås ,  32
+C0158      , Malmö    ,  35
+C0159      , Stockholm,  29
+C0160      , Malmö    ,  33
+C0161      , Uppsala  ,  40
+C0162      , Stockholm,  33
+C0163      , Stockholm,  31
+C0164      , Västerås ,    
+C0165      , Västerås ,   0
+C0166      , Västerås ,  38
+C0167      , Malmö    ,  26
+C0168      , Linköping,  40
+C0169      , Göteborg ,  35
+C0170      , Stockholm,  38
+C0171      , Uppsala  ,  70
+C0172      , Örebro   , 999
+C0173      , Stockholm,  30
+C0174      , Göteborg ,  25
+C0175      , Stockholm,  22
+C0176      ,          ,  43
+C0177      , Linköping,  40
+C0178      , Stockholm,  46
+C0179      , Stockholm,  40
+C0180      , Örebro   ,  39
+C0181      , Göteborg ,  62
+C0182      , Linköping,  27
+C0183      , Stockholm,  41
+C0184      , Uppsala  ,  56
+C0185      , Stockholm,  43
+C0186      , Malmö    ,  40
+C0187      , Västerås ,  17
+C0188      , Malmö    ,  51
+C0189      , Uppsala  ,  39
+C0190      , Örebro   ,  29
+C0191      , Stockholm,  52
+C0192      , Örebro   ,  47
+C0193      , Stockholm,  35
+C0194      , Göteborg ,  58
+C0195      ,          ,  50
+C0196      ,          ,  39
+C0197      , Örebro   ,    
+C0198      , Uppsala  ,  43
+C0199      , Malmö    ,  31
+C0199      , Malmö    ,  31
+C0200      , Örebro   ,  30
+C0201      , Malmö    ,    
+C0202      , Stockholm,  34
+C0203      , Göteborg ,  27
+C0204      , Linköping,  49
+C0205      , Stockholm,  20
+C0206      , Uppsala  ,  37
+C0207      , Stockholm,    
+C0208      ,          ,  29
+C0209      , Göteborg ,  48
+C0210      , Linköping,  53
+C0211      , Linköping,  47
+C0212      , Västerås ,  35
+C0213      , Stockholm,  61
+C0214      , Stockholm,    
+C0215      , Uppsala  ,  31
+C0216      , Stockholm,  54
+C0217      , Västerås ,  37
+C0218      , Göteborg ,  48
+C0219      , Stockholm,  30
+C0221      , Stockholm,  33
+C0222      ,          ,  25
+C0223      , Stockholm,  30
+C0224      ,          ,  31
+C0225      , Göteborg ,  27
+C0226      , Göteborg ,  38
+C0227      , Malmö    ,    
+C0229      , Stockholm,    
+C0230      , Stockholm,  55
+C0231      , Linköping,  64
+C0232      , Göteborg ,  18
+C0233      , Stockholm,  18
+C0234      , Örebro   ,  32
+C0235      , Malmö    ,  40
+C0236      , Västerås ,  44
+C0237      , Umeå     ,  68
+C0238      , Göteborg ,  36
+C0239      , Uppsala  ,  58
+C0240      , Stockholm,  45
+C0241      , Stockholm,  64
+C0242      , Malmö    ,  33
+C0243      , Örebro   ,  41
+C0244      , Örebro   ,  18
+C0245      , Göteborg ,  43
+C0246      , Göteborg ,  33
+C0247      , Västerås ,    
+C0248      , Linköping,  26
+C0249      , Göteborg ,  42
+C0250      , Stockholm,  52
+C0251      , Örebro   ,  34
+C0252      , Göteborg ,    
+C0253      , Malmö    ,  60
+C0254      , Göteborg ,  34
+C0255      , Göteborg ,    
+C0256      , Stockholm,  18
+C0257      , Uppsala  ,  31
+C0258      , Västerås ,  39
+C0259      , Göteborg ,  35
+C0260      ,          ,  43
+C0261      , Malmö    ,  23
+C0262      , Västerås ,  33
+C0264      , Malmö    ,  47
+C0265      , Stockholm, 999
+C0266      , Umeå     ,    
+C0267      , Stockholm,  34
+C0268      , Stockholm,  27
+C0269      , Stockholm,  31
+C0270      , Örebro   ,  19
+C0271      , Stockholm,  51
+C0272      , Uppsala  ,  58
+C0273      , Uppsala  ,  35
+C0274      ,          ,  30
+C0275      , Göteborg ,  24
+C0276      , Stockholm,  49
+C0277      , Umeå     ,  41
+C0278      , Västerås ,  22
+C0279      , Malmö    ,    
+C0280      , Västerås ,  59
+C0281      , Göteborg ,  38
+C0282      , Göteborg ,  41
+C0283      , Stockholm,    
+C0284      , Stockholm,  36
+C0285      , Umeå     ,  37
+C0286      , Västerås ,  39
+C0287      , Malmö    ,  38
+C0288      , Uppsala  ,  16
+C0289      , Uppsala  ,  26
+C0290      , Stockholm,  40
+C0291      , Linköping,  44
+C0292      , Göteborg ,  46
+C0293      , Stockholm,  60
+C0294      , Malmö    ,  17
+C0295      , Göteborg ,  45
+C0296      ,          ,  41
+C0297      , Umeå     ,  50
+C0298      , Uppsala  ,  39
+C0299      , Stockholm,  29
+C0300      , Stockholm,  16
