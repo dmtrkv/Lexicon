@@ -1,0 +1,401 @@
+rental_id,station,bike_type,helmets_text,is_member,insured,paid_online,status,start_date,end_date,price,rating,rental_days,has_rating,child_helmet,helmets_count
+R-5020,Södermalm,E-bike,1 helmet,False,True,True,Completed,2026-04-27,2026-04-29,855.5,5.0,2 days,True,False,1
+R-5100,Södermalm,E-bike,1 helmet,False,True,True,Completed,2026-09-16,2026-09-19,1311.5,4.0,3 days,True,False,1
+R-5055,Södermalm,City bike,3 helmets,False,False,True,Completed,2026-08-04,2026-08-06,350.0,,2 days,False,False,3
+R-5200,Södermalm,City bike,2 helmets,False,False,True,No-show,2026-05-30,2026-06-02,569.5,,3 days,False,False,2
+R-5109,Östermalm,City bike,2 helmets,False,True,False,No-show,2026-04-25,2026-04-29,828.0,,4 days,False,False,2
+R-5160,Södermalm,City bike,2 helmets,False,,True,Completed,2026-06-10,2026-06-11,246.0,5.0,1 days,True,False,2
+R-5077,Central,City bike,2 helmets,False,True,False,Completed,2026-07-19,2026-07-18,476.0,5.0,-1 days,True,False,2
+R-5032,Central,E-bike,1 helmet,False,True,False,Completed,2026-04-03,2026-04-08,1838.5,5.0,5 days,True,False,1
+R-5198,Södermalm,Cargo bike,2 helmets,True,True,True,Completed,2026-06-05,2026-06-09,1555.0,4.0,4 days,True,False,2
+R-5342,Central,City bike,3 helmets,False,False,True,Completed,2026-05-12,2026-05-13,189.5,4.0,1 days,True,False,3
+R-5067,Central,E-bike,2 helmets,True,False,False,Completed,2026-05-17,2026-05-18,335.5,4.0,1 days,True,False,2
+R-5075,Central,City bike,1 helmet,False,True,False,Cancelled,2026-05-10,2026-05-12,,,2 days,False,False,1
+R-5199,Central,City bike,1 helmet,False,True,True,Completed,2026-08-23,2026-08-25,429.0,4.0,2 days,True,False,1
+R-5226,Kungsholmen,Cargo bike,1 child helmet,False,True,True,Completed,2026-06-26,2026-07-02,2744.5,5.0,6 days,True,True,1
+R-5165,Södermalm,City bike,No helmets,False,True,True,Completed,2026-03-13,2026-03-15,418.5,,2 days,False,False,0
+R-5204,Hammarby,City bike,1 helmet,False,True,True,Completed,2026-07-27,2026-07-31,864.0,5.0,4 days,True,False,1
+R-5385,Central,E-bike,2 helmets,False,True,False,Completed,2026-08-31,2026-09-02,845.0,5.0,2 days,True,False,2
+R-5129,Hammarby,City bike,2 helmets,True,True,True,Completed,2026-04-01,2026-04-05,739.0,5.0,4 days,True,False,2
+R-5371,Södermalm,E-bike,1 helmet,True,False,True,No-show,2026-05-28,2026-06-03,2002.0,,6 days,False,False,1
+R-5182,Kungsholmen,E-bike,1 helmet,False,True,True,Completed,2026-05-13,2026-05-17,1686.0,,4 days,False,False,1
+R-5348,Kungsholmen,City bike,No helmets,True,False,False,No-show,2026-05-03,2026-05-04,171.5,,1 days,False,False,0
+R-5278,Kungsholmen,E-bike,1 helmet,True,False,False,Cancelled,2026-05-04,2026-05-06,,,2 days,False,False,1
+R-5243,Kungsholmen,E-bike,2 helmets,False,False,False,Completed,2026-05-14,2026-05-15,428.0,3.0,1 days,True,False,2
+R-5256,Södermalm,City bike,1 helmet,False,True,False,Completed,2026-09-06,2026-09-13,1297.0,1.0,7 days,True,False,1
+R-5307,Central,Cargo bike,1 helmet,False,False,True,Completed,2026-06-03,2026-06-04,413.5,4.0,1 days,True,False,1
+R-5228,Central,City bike,2 helmets,False,True,True,Completed,2026-08-22,2026-08-24,427.0,5.0,2 days,True,False,2
+R-5347,Östermalm,City bike,No helmets,False,True,True,Completed,2026-04-08,2026-04-13,1008.5,1.0,5 days,True,False,0
+R-5070,Kungsholmen,City bike,1 helmet,True,False,True,Completed,2026-03-19,2026-03-20,174.5,5.0,1 days,True,False,1
+R-5276,Östermalm,E-bike,1 helmet,False,True,True,Completed,2026-03-15,2026-03-16,468.0,5.0,1 days,True,False,1
+R-5265,Södermalm,City bike,2 helmets,False,True,True,Completed,2026-04-11,2026-04-14,676.0,5.0,3 days,True,False,2
+R-5315,Central,City bike,2 helmets,True,False,True,Completed,2026-09-09,2026-09-12,497.5,,3 days,False,False,2
+R-5203,Hammarby,City bike,2 helmets,False,True,False,Completed,2026-06-30,2026-07-05,1066.0,5.0,5 days,True,False,2
+R-5002,Central,City bike,2 helmets,False,True,True,Cancelled,2026-09-11,2026-09-13,,,2 days,False,False,2
+R-5025,Kungsholmen,City bike,2 helmets,False,True,True,Completed,2026-03-23,2026-03-24,258.5,3.0,1 days,True,False,2
+R-5376,Central,E-bike,1 helmet,True,True,False,Completed,2026-07-28,2026-07-29,406.0,5.0,1 days,True,False,1
+R-5329,Hammarby,City bike,2 helmets,False,False,True,Completed,2026-08-05,2026-08-06,195.0,4.0,1 days,True,False,2
+R-5053,Central,City bike,2 helmets,False,False,True,Cancelled,2026-06-16,2026-06-17,,,1 days,False,False,2
+R-5216,Östermalm,E-bike,No helmets,False,True,True,Cancelled,2026-07-06,2026-07-12,,,6 days,False,False,0
+R-5024,Kungsholmen,City bike,No helmets,False,False,True,Completed,2026-04-02,2026-04-04,343.0,5.0,2 days,True,False,0
+R-5069,Östermalm,City bike,1 child helmet,True,True,True,Completed,2026-03-23,2026-03-27,696.0,4.0,4 days,True,True,1
+R-5190,Kungsholmen,City bike,2 helmets,False,True,True,Completed,2026-03-18,2026-03-22,759.5,5.0,4 days,True,False,2
+R-5007,Central,City bike,1 child helmet,True,False,True,Completed,2026-07-30,2026-08-02,471.5,2.0,3 days,True,True,1
+R-5175,Kungsholmen,E-bike,1 helmet,False,True,True,Completed,2026-04-10,2026-04-12,907.0,4.0,2 days,True,False,1
+R-5352,Central,City bike,No helmets,False,True,False,Completed,2026-04-25,2026-04-26,233.5,4.0,1 days,True,False,0
+R-5350,Central,City bike,2 helmets,False,False,True,Cancelled,2026-08-13,2026-08-15,,,2 days,False,False,2
+R-5259,Central,Cargo bike,2 helmets,False,False,True,Completed,2026-06-26,2026-06-27,492.5,,1 days,False,False,2
+R-5028,Södermalm,City bike,1 helmet,False,True,True,Completed,2026-07-12,2026-07-13,257.0,5.0,1 days,True,False,1
+R-5334,Östermalm,E-bike,No helmets,False,False,True,Completed,2026-07-26,2026-08-02,2752.0,4.0,7 days,True,False,0
+R-5142,Kungsholmen,City bike,1 helmet,False,False,True,Completed,2026-06-08,2026-06-12,742.0,4.0,4 days,True,False,1
+R-5209,Kungsholmen,Cargo bike,No helmets,False,False,True,Completed,2026-03-23,2026-03-30,2979.5,5.0,7 days,True,False,0
+R-5174,Central,Cargo bike,1 child helmet,True,False,True,Completed,2026-08-27,2026-08-29,806.5,5.0,2 days,True,True,1
+R-5327,Kungsholmen,Cargo bike,2 helmets,True,True,True,Completed,2026-05-10,2026-05-11,447.0,4.0,1 days,True,False,2
+R-5297,Central,City bike,2 helmets,False,True,True,Completed,2026-08-28,2026-08-29,266.5,5.0,1 days,True,False,2
+R-5369,Östermalm,City bike,1 child helmet,False,True,True,Completed,2026-07-14,2026-07-15,235.5,4.0,1 days,True,True,1
+R-5284,Hammarby,City bike,2 helmets,False,True,True,Completed,2026-04-25,2026-04-27,438.5,,2 days,False,False,2
+R-5084,Central,City bike,2 helmets,False,False,False,Completed,2026-06-09,2026-06-16,1310.0,5.0,7 days,True,False,2
+R-5367,Södermalm,City bike,1 child helmet,False,True,True,Completed,2026-07-31,2026-08-04,785.0,5.0,4 days,True,True,1
+R-5379,Södermalm,City bike,No helmets,False,False,True,Completed,2026-06-14,2026-06-18,754.0,5.0,4 days,True,False,0
+R-5335,Hammarby,E-bike,2 helmets,True,True,True,Completed,,2026-05-27,702.0,3.0,,True,False,2
+R-5151,Central,City bike,,False,True,True,Completed,2026-07-12,2026-07-13,251.0,5.0,1 days,True,False,
+R-5349,Kungsholmen,City bike,1 helmet,False,False,True,Completed,2026-08-06,2026-08-11,984.5,4.0,5 days,True,False,1
+R-5286,Central,E-bike,1 helmet,False,False,True,Completed,2026-05-24,2026-05-27,1160.0,5.0,3 days,True,False,1
+R-5317,Central,E-bike,1 helmet,False,False,True,Completed,2026-04-26,2026-04-29,1182.0,4.0,3 days,True,False,1
+R-5163,Central,City bike,1 helmet,False,True,True,Cancelled,2026-07-08,2026-07-10,,,2 days,False,False,1
+R-5157,Kungsholmen,E-bike,1 helmet,True,True,True,Completed,2026-08-18,2026-08-21,1022.5,5.0,3 days,True,False,1
+R-5264,Central,E-bike,No helmets,False,True,False,Completed,2026-03-04,2026-03-05,422.5,5.0,1 days,True,False,0
+R-5030,Central,E-bike,2 helmets,True,True,True,Completed,2026-07-12,2026-07-15,1017.0,4.0,3 days,True,False,2
+R-5267,Kungsholmen,E-bike,1 child helmet,False,False,False,Completed,2026-04-07,2026-04-10,1286.0,4.0,3 days,True,True,1
+R-5068,Kungsholmen,City bike,1 helmet,False,False,True,Completed,2026-08-07,2026-08-13,,4.0,6 days,True,False,1
+R-5114,Hammarby,City bike,1 child helmet,False,False,True,Cancelled,2026-07-26,2026-07-30,,,4 days,False,True,1
+R-5193,Central,City bike,1 helmet,False,True,False,Completed,2026-08-28,2026-09-04,1274.5,5.0,7 days,True,False,1
+R-5237,Central,City bike,2 helmets,True,False,False,No-show,2026-05-03,2026-05-08,791.5,,5 days,False,False,2
+R-5017,Central,City bike,2 helmets,False,True,True,Completed,2026-03-05,2026-03-06,241.0,5.0,1 days,True,False,2
+R-5251,Central,City bike,1 helmet,True,True,True,Completed,2026-06-10,2026-06-12,407.5,5.0,2 days,True,False,1
+R-5291,Central,E-bike,1 helmet,False,False,False,Completed,2026-05-17,2026-05-20,1241.5,5.0,3 days,True,False,1
+R-5274,Kungsholmen,E-bike,2 helmets,False,False,True,Completed,2026-04-05,2026-04-10,1787.5,,5 days,False,False,2
+R-5266,Central,City bike,2 helmets,True,False,True,No-show,2026-06-05,2026-06-08,460.0,,3 days,False,False,2
+R-5089,Central,Cargo bike,1 child helmet,True,True,True,Completed,2026-04-26,2026-04-27,414.0,5.0,1 days,True,True,1
+R-5041,Hammarby,City bike,2 helmets,False,True,False,Cancelled,2026-03-22,2026-03-25,,,3 days,False,False,2
+R-5150,Central,City bike,2 helmets,False,False,True,Completed,2026-03-25,2026-03-28,526.5,4.0,3 days,True,False,2
+R-5214,Hammarby,City bike,1 helmet,True,True,True,Completed,2026-03-22,2026-03-26,704.5,5.0,4 days,True,False,1
+R-5225,Kungsholmen,E-bike,2 helmets,False,True,True,Cancelled,2026-06-11,2026-06-12,,,1 days,False,False,2
+R-5241,Södermalm,City bike,2 helmets,False,False,False,Completed,2026-04-10,2026-04-17,1341.0,,7 days,False,False,2
+R-5065,Södermalm,City bike,1 helmet,False,False,True,Completed,2026-06-16,2026-06-17,206.5,5.0,1 days,True,False,1
+R-5178,Hammarby,City bike,No helmets,False,True,True,Completed,2026-03-04,2026-03-07,637.5,,3 days,False,False,0
+R-5220,Kungsholmen,City bike,2 helmets,False,False,True,Completed,2026-03-30,2026-03-31,174.5,5.0,1 days,True,False,2
+R-5146,Central,City bike,2 helmets,True,True,False,Completed,2026-06-12,2026-06-16,751.5,5.0,4 days,True,False,2
+R-5189,Kungsholmen,E-bike,1 helmet,True,True,False,Cancelled,2026-03-18,2026-03-21,,,3 days,False,False,1
+R-5212,Östermalm,E-bike,No helmets,False,False,False,Completed,2026-06-30,2026-07-01,355.0,5.0,1 days,True,False,0
+R-5194,Central,E-bike,1 helmet,False,True,False,Completed,2026-04-28,2026-04-29,456.5,5.0,1 days,True,False,1
+R-5003,Kungsholmen,City bike,No helmets,False,True,True,Completed,2026-06-06,2026-06-08,426.5,5.0,2 days,True,False,0
+R-5094,Central,E-bike,2 helmets,True,True,False,Completed,2026-04-15,2026-04-17,660.5,5.0,2 days,True,False,2
+R-5119,Central,City bike,2 helmets,True,True,True,Completed,2026-03-17,2026-03-24,1265.0,5.0,7 days,True,False,2
+R-5313,Central,City bike,1 child helmet,False,False,True,Completed,2026-08-17,2026-08-20,530.0,,3 days,False,True,1
+R-5042,Kungsholmen,Cargo bike,1 helmet,False,False,False,Completed,2026-05-03,2026-05-04,456.0,2.0,1 days,True,False,1
+R-5159,Central,E-bike,1 helmet,False,False,True,Completed,2026-08-25,2026-08-26,388.5,2.0,1 days,True,False,1
+R-5010,Södermalm,City bike,No helmets,False,True,True,Completed,2026-04-17,2026-04-20,629.0,5.0,3 days,True,False,0
+R-5309,Södermalm,City bike,1 helmet,True,True,False,No-show,2026-07-21,2026-07-22,212.5,,1 days,False,False,1
+R-5289,Central,City bike,2 helmets,True,True,True,Completed,2026-03-28,2026-04-04,1295.5,5.0,7 days,True,False,2
+R-5244,Central,City bike,1 helmet,False,True,True,Completed,2026-03-02,2026-03-03,254.5,5.0,1 days,True,False,1
+R-5180,Hammarby,City bike,1 helmet,False,True,True,Completed,2026-04-30,2026-05-05,1042.0,3.0,5 days,True,False,1
+R-5066,Kungsholmen,City bike,2 helmets,False,False,False,Cancelled,2026-04-16,2026-04-18,,,2 days,False,False,2
+R-5391,Östermalm,City bike,3 helmets,False,True,False,Cancelled,2026-08-17,2026-08-18,,,1 days,False,False,3
+R-5275,Hammarby,City bike,No helmets,False,True,True,Completed,2026-06-30,2026-07-07,1326.0,4.0,7 days,True,False,0
+R-5205,Kungsholmen,City bike,2 helmets,False,False,True,Completed,2026-08-22,2026-08-27,1001.5,,5 days,False,False,2
+R-5141,Östermalm,City bike,1 helmet,False,True,True,Completed,2026-07-28,2026-07-29,241.5,5.0,1 days,True,False,1
+R-5012,Central,E-bike,1 helmet,False,False,False,Cancelled,2026-06-23,2026-06-28,,,5 days,False,False,1
+R-5013,Hammarby,City bike,2 helmets,False,True,False,Completed,2026-07-12,2026-07-16,811.0,4.0,4 days,True,False,2
+R-5377,Kungsholmen,City bike,2 helmets,False,True,False,Completed,2026-08-13,2026-08-16,,5.0,3 days,True,False,2
+R-5181,Central,City bike,1 child helmet,True,True,True,Completed,2026-06-22,2026-06-25,558.0,5.0,3 days,True,True,1
+R-5310,Central,City bike,1 helmet,True,False,False,No-show,2026-08-23,2026-08-27,624.0,,4 days,False,False,1
+R-5365,Central,City bike,No helmets,False,True,True,No-show,2026-08-11,2026-08-13,438.5,,2 days,False,False,0
+R-5336,Central,City bike,1 helmet,False,False,True,Completed,2026-07-25,2026-07-28,514.5,5.0,3 days,True,False,1
+R-5029,Central,City bike,2 helmets,False,False,True,Completed,2026-05-27,2026-06-03,1428.5,4.0,7 days,True,False,2
+R-5312,Södermalm,E-bike,1 helmet,True,False,True,Completed,2026-05-14,2026-05-17,1066.5,5.0,3 days,True,False,1
+R-5346,Östermalm,E-bike,1 helmet,False,True,True,Completed,2026-05-16,2026-05-18,851.0,4.0,2 days,True,False,1
+R-5338,Kungsholmen,E-bike,1 child helmet,False,True,True,Completed,2026-05-03,2026-05-04,421.5,5.0,1 days,True,True,1
+R-5380,Södermalm,City bike,2 helmets,False,True,True,Completed,2026-06-13,2026-06-16,628.5,,3 days,False,False,2
+R-5183,Södermalm,City bike,1 helmet,True,True,True,Completed,2026-05-20,2026-05-21,222.0,4.0,1 days,True,False,1
+R-5108,Hammarby,City bike,1 helmet,False,False,True,Completed,2026-06-11,2026-06-15,775.0,3.0,4 days,True,False,1
+R-5320,Central,City bike,1 helmet,True,True,True,Completed,2026-08-05,2026-08-06,227.0,4.0,1 days,True,False,1
+R-5179,Hammarby,E-bike,No helmets,True,True,True,Completed,2026-07-22,2026-07-23,392.0,1.0,1 days,True,False,0
+R-5368,Central,E-bike,1 helmet,False,True,False,Completed,2026-04-08,2026-04-14,2217.5,5.0,6 days,True,False,1
+R-5279,Östermalm,E-bike,1 helmet,False,False,True,Cancelled,2026-09-15,2026-09-20,,,5 days,False,False,1
+R-5035,Södermalm,E-bike,2 helmets,True,True,True,Completed,2026-09-02,2026-09-05,974.0,4.0,3 days,True,False,2
+R-5280,Södermalm,Cargo bike,No helmets,True,False,True,Completed,2026-03-05,2026-03-07,772.5,4.0,2 days,True,False,0
+R-5173,Södermalm,City bike,2 helmets,True,True,True,Completed,2026-08-10,2026-08-11,221.5,,1 days,False,False,2
+R-5230,Hammarby,City bike,No helmets,False,False,True,Completed,2026-05-19,2026-05-21,378.0,5.0,2 days,True,False,0
+R-5099,Central,City bike,No helmets,True,False,False,Completed,2026-09-13,2026-09-18,851.5,4.0,5 days,True,False,0
+R-5131,Kungsholmen,City bike,1 helmet,False,True,True,Completed,2026-08-17,2026-08-21,856.0,4.0,4 days,True,False,1
+R-5112,Hammarby,E-bike,1 helmet,False,True,True,Completed,2026-07-26,2026-07-28,781.0,3.0,2 days,True,False,1
+R-5147,Södermalm,E-bike,1 helmet,False,True,True,Completed,2026-04-09,2026-04-13,1640.0,4.0,4 days,True,False,1
+R-5128,Östermalm,E-bike,2 helmets,False,True,False,Completed,2026-03-16,2026-03-18,788.5,4.0,2 days,True,False,2
+R-5161,Hammarby,E-bike,No helmets,True,True,False,Completed,2026-06-23,2026-06-25,711.5,4.0,2 days,True,False,0
+R-5364,Kungsholmen,City bike,2 helmets,False,False,True,Completed,2026-04-09,2026-04-11,367.0,5.0,2 days,True,False,2
+R-5269,Östermalm,E-bike,1 helmet,False,True,True,Completed,2026-06-22,2026-06-26,1733.5,3.0,4 days,True,False,1
+R-5176,Södermalm,City bike,,True,False,False,Completed,2026-05-10,2026-05-12,315.0,,2 days,False,False,
+R-5170,Kungsholmen,Cargo bike,2 helmets,False,False,True,Completed,2026-03-19,2026-03-20,491.5,5.0,1 days,True,False,2
+R-5098,Södermalm,E-bike,1 helmet,False,True,False,Cancelled,2026-07-22,2026-07-24,,,2 days,False,False,1
+R-5118,Södermalm,City bike,3 helmets,True,True,False,Completed,2026-06-01,2026-06-06,946.0,5.0,5 days,True,False,3
+R-5340,Södermalm,E-bike,,False,True,True,Completed,2026-07-29,2026-08-04,2198.0,2.0,6 days,True,False,
+R-5390,Södermalm,City bike,1 helmet,False,False,True,Completed,2026-09-08,2026-09-15,1314.0,5.0,7 days,True,False,1
+R-5172,Södermalm,Cargo bike,2 helmets,False,True,True,No-show,2026-09-06,2026-09-07,522.5,,1 days,False,False,2
+R-5060,Kungsholmen,Cargo bike,1 child helmet,False,False,True,Cancelled,2026-09-15,2026-09-22,,,7 days,False,True,1
+R-5227,Södermalm,E-bike,1 helmet,False,True,True,Completed,2026-04-04,2026-04-09,2078.0,4.0,5 days,True,False,1
+R-5298,Södermalm,City bike,1 helmet,True,True,True,Completed,2026-09-06,2026-09-09,558.0,5.0,3 days,True,False,1
+R-5011,Central,City bike,No helmets,False,True,True,Completed,2026-05-03,2026-05-06,642.0,4.0,3 days,True,False,0
+R-5268,Södermalm,City bike,2 helmets,True,True,True,Completed,2026-08-06,2026-08-08,406.5,5.0,2 days,True,False,2
+R-5169,Kungsholmen,City bike,No helmets,False,False,False,Cancelled,2026-09-06,2026-09-09,,,3 days,False,False,0
+R-5188,Kungsholmen,City bike,1 child helmet,True,False,True,Completed,2026-03-23,2026-03-24,154.5,5.0,1 days,True,True,1
+R-5235,Hammarby,E-bike,2 helmets,True,False,True,Completed,2026-07-06,2026-07-07,311.0,5.0,1 days,True,False,2
+R-5126,Södermalm,City bike,2 helmets,False,False,True,Completed,2026-03-13,2026-03-18,980.0,,5 days,False,False,2
+R-5127,Central,City bike,2 helmets,False,True,True,Completed,2026-03-25,2026-03-30,916.5,4.0,5 days,True,False,2
+R-5057,Kungsholmen,Cargo bike,3 helmets,True,True,True,Completed,2026-07-08,2026-07-10,898.5,4.0,2 days,True,False,3
+R-5223,Södermalm,City bike,2 helmets,False,False,True,Completed,2026-07-30,2026-08-01,413.0,5.0,2 days,True,False,2
+R-5192,Östermalm,Cargo bike,1 helmet,False,False,True,Completed,2026-08-20,2026-08-23,1247.5,3.0,3 days,True,False,1
+R-5306,Hammarby,City bike,No helmets,False,True,True,Completed,2026-08-05,2026-08-06,269.0,2.0,1 days,True,False,0
+R-5074,Central,E-bike,2 helmets,False,True,True,Cancelled,2026-06-14,2026-06-16,,,2 days,False,False,2
+R-5106,Kungsholmen,E-bike,2 helmets,False,False,True,Completed,2026-07-17,2026-07-22,2019.0,5.0,5 days,True,False,2
+R-5091,Kungsholmen,City bike,1 helmet,False,True,True,Completed,2026-04-11,2026-04-15,861.5,5.0,4 days,True,False,1
+R-5294,Central,E-bike,1 helmet,False,True,False,Completed,2026-04-09,2026-04-10,442.5,5.0,1 days,True,False,1
+R-5332,Kungsholmen,City bike,1 helmet,True,False,False,Completed,2026-05-07,2026-05-14,1169.0,3.0,7 days,True,False,1
+R-5023,Kungsholmen,E-bike,1 helmet,False,True,False,Cancelled,2026-05-23,2026-05-25,,,2 days,False,False,1
+R-5186,Södermalm,City bike,1 helmet,False,True,True,Completed,2026-04-26,2026-04-27,265.5,2.0,1 days,True,False,1
+R-5300,Kungsholmen,E-bike,3 helmets,False,True,True,Completed,2026-06-20,2026-06-21,462.0,5.0,1 days,True,False,3
+R-5001,Östermalm,E-bike,1 helmet,True,True,False,Completed,2026-03-31,2026-04-03,1123.5,5.0,3 days,True,False,1
+R-5301,Södermalm,City bike,2 helmets,True,True,False,Completed,2026-05-13,2026-05-15,398.5,5.0,2 days,True,False,2
+R-5039,Kungsholmen,City bike,1 helmet,False,False,True,Completed,2026-08-04,2026-08-07,571.0,3.0,3 days,True,False,1
+R-5111,Östermalm,City bike,2 helmets,False,False,True,Cancelled,2026-08-16,2026-08-19,,,3 days,False,False,2
+R-5258,Kungsholmen,City bike,3 helmets,False,False,False,Cancelled,2026-06-25,2026-06-27,,,2 days,False,False,3
+R-5394,Södermalm,Cargo bike,1 helmet,False,True,True,Cancelled,2026-05-20,2026-05-25,,,5 days,False,False,1
+R-5054,Kungsholmen,E-bike,No helmets,False,True,True,Completed,2026-03-02,2026-03-07,2169.0,5.0,5 days,True,False,0
+R-5004,Östermalm,E-bike,1 helmet,True,False,True,Cancelled,2026-09-15,2026-09-16,,,1 days,False,False,1
+R-5104,Östermalm,E-bike,2 helmets,True,False,False,Completed,2026-06-26,2026-06-30,1218.0,4.0,4 days,True,False,2
+R-5261,Central,City bike,2 helmets,False,False,True,Completed,2026-09-16,2026-09-21,1005.5,3.0,5 days,True,False,2
+R-5305,Östermalm,Cargo bike,2 helmets,True,True,True,Completed,2026-08-03,2026-08-04,413.0,3.0,1 days,True,False,2
+R-5105,Södermalm,City bike,1 helmet,False,True,True,Completed,2026-04-10,2026-04-11,263.0,5.0,1 days,True,False,1
+R-5085,Södermalm,Cargo bike,1 helmet,False,False,False,Completed,2026-03-14,2026-03-18,1923.0,1.0,4 days,True,False,1
+R-5333,Östermalm,City bike,2 helmets,True,False,True,Cancelled,2026-05-15,2026-05-16,,,1 days,False,False,2
+R-5171,Östermalm,Cargo bike,2 helmets,True,False,True,Completed,2026-07-28,2026-07-29,377.0,5.0,1 days,True,False,2
+R-5215,Östermalm,E-bike,1 helmet,True,True,True,Completed,2026-06-29,2026-06-30,381.0,4.0,1 days,True,False,1
+R-5152,Central,City bike,2 helmets,False,True,True,Cancelled,2026-07-09,2026-07-10,,,1 days,False,False,2
+R-5166,Södermalm,City bike,2 helmets,False,False,True,Completed,2026-07-12,2026-07-18,1070.5,4.0,6 days,True,False,2
+R-5006,Södermalm,City bike,1 helmet,False,False,False,Completed,2026-04-24,2026-04-26,406.5,2.0,2 days,True,False,1
+R-5304,Central,City bike,1 child helmet,False,True,True,Completed,2026-03-09,2026-03-11,475.0,,2 days,False,True,1
+R-5303,Central,E-bike,No helmets,False,False,True,Completed,2026-07-30,2026-08-02,1143.5,5.0,3 days,True,False,0
+R-5156,Central,City bike,2 helmets,True,True,False,Completed,2026-05-07,2026-05-08,221.5,,1 days,False,False,2
+R-5282,Kungsholmen,Cargo bike,No helmets,False,True,True,Completed,2026-08-22,2026-08-29,3401.0,5.0,7 days,True,False,0
+R-5082,Hammarby,E-bike,1 helmet,True,True,True,Completed,2026-04-28,2026-04-30,745.0,,2 days,False,False,1
+R-5344,Södermalm,City bike,1 child helmet,False,False,True,Completed,2026-05-16,2026-05-17,173.0,,1 days,False,True,1
+R-5071,Kungsholmen,City bike,1 child helmet,True,True,True,Completed,2026-08-26,2026-08-27,232.5,5.0,1 days,True,True,1
+R-5236,Hammarby,City bike,1 helmet,False,True,True,Completed,2026-09-10,2026-09-16,1232.5,5.0,6 days,True,False,1
+R-5375,Hammarby,E-bike,1 helmet,True,False,True,Completed,2026-03-24,2026-03-25,,3.0,1 days,True,False,1
+R-5087,Central,E-bike,1 helmet,False,True,True,Completed,2026-08-24,2026-08-25,415.5,1.0,1 days,True,False,1
+R-5064,Hammarby,City bike,3 helmets,True,False,True,Completed,2026-08-21,2026-08-22,170.0,,1 days,False,False,3
+R-5014,Södermalm,E-bike,2 helmets,True,False,True,Completed,2026-05-18,2026-05-23,1630.5,5.0,5 days,True,False,2
+R-5217,Kungsholmen,E-bike,No helmets,True,False,True,Completed,2026-06-20,2026-06-18,334.0,4.0,-2 days,True,False,0
+R-5222,Hammarby,E-bike,2 helmets,False,True,False,Completed,2026-05-02,2026-05-03,431.0,5.0,1 days,True,False,2
+R-5018,Kungsholmen,City bike,2 helmets,True,True,True,Completed,2026-08-27,2026-08-28,207.0,4.0,1 days,True,False,2
+R-5321,Central,City bike,No helmets,False,True,True,Completed,2026-04-22,2026-04-26,838.0,5.0,4 days,True,False,0
+R-5283,Kungsholmen,E-bike,1 helmet,False,True,False,Completed,2026-08-11,2026-08-12,463.5,5.0,1 days,True,False,1
+R-5328,Hammarby,E-bike,1 child helmet,False,False,True,Completed,2026-06-10,2026-06-11,389.5,5.0,1 days,True,True,1
+R-5153,Kungsholmen,Cargo bike,1 child helmet,False,False,False,Completed,2026-04-30,2026-05-02,947.5,5.0,2 days,True,True,1
+R-5357,Södermalm,E-bike,1 helmet,False,True,True,Completed,2026-07-04,2026-07-07,1220.0,5.0,3 days,True,False,1
+R-5103,Östermalm,E-bike,No helmets,False,True,False,Completed,2026-06-13,2026-06-15,849.5,,2 days,False,False,0
+R-5240,Kungsholmen,City bike,1 child helmet,True,False,True,Cancelled,2026-08-04,2026-08-05,,,1 days,False,True,1
+R-5154,Central,City bike,1 helmet,False,False,True,Completed,2026-07-24,2026-07-25,187.0,3.0,1 days,True,False,1
+R-5337,Hammarby,City bike,2 helmets,False,False,True,Completed,2026-06-26,2026-06-27,190.0,3.0,1 days,True,False,2
+R-5120,Kungsholmen,City bike,2 helmets,True,False,False,Completed,2026-03-23,2026-03-26,439.0,4.0,3 days,True,False,2
+R-5362,Central,E-bike,1 helmet,False,False,True,Completed,2026-04-03,2026-04-06,1216.0,,3 days,False,False,1
+R-5262,Central,City bike,1 helmet,False,False,True,Completed,2026-07-14,2026-07-18,770.0,3.0,4 days,True,False,1
+R-5144,Central,E-bike,1 helmet,False,True,True,Completed,2026-08-26,2026-08-27,457.5,,1 days,False,False,1
+R-5221,Södermalm,City bike,No helmets,True,True,True,Completed,2026-08-03,2026-08-06,563.5,5.0,3 days,True,False,0
+R-5044,Södermalm,E-bike,2 helmets,False,False,True,Completed,2026-09-06,2026-09-11,1927.0,3.0,5 days,True,False,2
+R-5113,Kungsholmen,City bike,1 child helmet,False,False,True,Completed,2026-06-30,2026-07-03,561.5,5.0,3 days,True,True,1
+R-5134,Södermalm,City bike,2 helmets,False,False,True,Completed,2026-06-23,2026-06-25,351.5,3.0,2 days,True,False,2
+R-5140,Hammarby,City bike,2 helmets,False,False,False,Completed,2026-03-20,2026-03-21,204.0,4.0,1 days,True,False,2
+R-5093,Hammarby,City bike,1 helmet,True,False,True,Completed,2026-05-08,2026-05-11,475.0,2.0,3 days,True,False,1
+R-5101,Östermalm,E-bike,No helmets,True,True,True,Completed,2026-03-14,2026-03-17,1087.5,2.0,3 days,True,False,0
+R-5210,Central,City bike,3 helmets,False,True,False,Completed,2026-06-11,2026-06-15,834.5,5.0,4 days,True,False,3
+R-5133,Central,City bike,1 child helmet,True,True,True,Completed,2026-05-11,2026-05-13,374.5,5.0,2 days,True,True,1
+R-5005,Södermalm,Cargo bike,2 helmets,False,True,False,Completed,2026-03-04,2026-03-07,1359.5,5.0,3 days,True,False,2
+R-5339,Södermalm,E-bike,1 helmet,False,False,True,Completed,2026-08-05,2026-08-07,813.0,5.0,2 days,True,False,1
+R-5130,Östermalm,City bike,2 helmets,False,False,True,Completed,2026-07-23,2026-07-24,174.5,4.0,1 days,True,False,2
+R-5079,Södermalm,City bike,2 helmets,False,True,False,Completed,2026-09-07,2026-09-08,256.0,,1 days,False,False,2
+R-5382,Hammarby,City bike,1 helmet,False,True,False,Completed,2026-06-19,2026-06-25,1270.5,5.0,6 days,True,False,1
+R-5155,Central,E-bike,3 helmets,True,True,True,Completed,2026-05-15,2026-05-20,1873.5,,5 days,False,False,3
+R-5115,Södermalm,City bike,2 helmets,False,True,True,Cancelled,2026-04-17,2026-04-23,,,6 days,False,False,2
+R-5270,Södermalm,City bike,No helmets,False,False,True,Completed,2026-05-31,2026-06-05,856.0,3.0,5 days,True,False,0
+R-5281,Södermalm,City bike,1 child helmet,False,False,False,Completed,2026-06-19,2026-06-21,371.5,3.0,2 days,True,True,1
+R-5117,Södermalm,E-bike,2 helmets,False,False,True,Completed,2026-07-02,2026-07-04,775.5,5.0,2 days,True,False,2
+R-5206,Södermalm,City bike,1 helmet,False,False,False,Cancelled,2026-04-24,2026-04-26,,,2 days,False,False,1
+R-5386,Södermalm,City bike,1 helmet,False,True,True,Completed,2026-04-16,2026-04-17,264.5,3.0,1 days,True,False,1
+R-5353,Södermalm,City bike,1 helmet,True,False,False,Completed,2026-04-15,2026-04-18,454.5,4.0,3 days,True,False,1
+R-5184,Södermalm,E-bike,1 child helmet,True,True,True,Completed,2026-07-27,2026-07-30,1020.0,,3 days,False,True,1
+R-5253,Östermalm,City bike,2 helmets,True,False,True,Completed,2026-05-27,2026-06-02,999.0,5.0,6 days,True,False,2
+R-5381,Central,City bike,2 helmets,False,True,True,Cancelled,2026-03-18,2026-03-21,,,3 days,False,False,2
+R-5040,Central,E-bike,1 child helmet,True,False,False,Cancelled,2026-07-31,2026-08-05,,,5 days,False,True,1
+R-5322,Södermalm,Cargo bike,2 helmets,False,True,False,Completed,2026-04-12,2026-04-18,2839.5,5.0,6 days,True,False,2
+R-5090,Hammarby,City bike,1 child helmet,False,True,True,Completed,2026-04-24,2026-04-27,612.5,5.0,3 days,True,True,1
+R-5345,Central,City bike,No helmets,False,True,True,No-show,2026-07-14,2026-07-15,247.0,,1 days,False,False,0
+R-5231,Östermalm,City bike,2 helmets,False,,True,Completed,2026-07-19,2026-07-20,,,1 days,False,False,2
+R-5232,Kungsholmen,City bike,1 helmet,False,True,True,Completed,2026-07-25,2026-07-31,1187.5,5.0,6 days,True,False,1
+R-5383,Södermalm,E-bike,No helmets,False,True,False,Completed,2026-07-08,2026-07-11,1329.5,5.0,3 days,True,False,0
+R-5242,Södermalm,Cargo bike,2 helmets,False,False,True,Completed,2026-07-04,2026-07-09,2458.5,4.0,5 days,True,False,2
+R-5164,Kungsholmen,E-bike,3 helmets,False,True,False,Completed,2026-07-27,2026-07-31,1524.0,5.0,4 days,True,False,3
+R-5314,Hammarby,City bike,1 helmet,True,True,False,Completed,2026-09-13,2026-09-18,807.5,,5 days,False,False,1
+R-5009,Södermalm,City bike,3 helmets,False,False,True,Completed,2026-03-03,2026-03-04,194.0,5.0,1 days,True,False,3
+R-5037,Central,City bike,1 helmet,False,False,True,Completed,2026-07-01,2026-07-08,1338.0,3.0,7 days,True,False,1
+R-5208,Hammarby,E-bike,2 helmets,False,False,False,Completed,2026-03-27,2026-03-29,758.5,4.0,2 days,True,False,2
+R-5045,Kungsholmen,City bike,1 child helmet,False,True,True,Cancelled,2026-04-08,2026-04-10,,,2 days,False,True,1
+R-5395,Kungsholmen,City bike,2 helmets,True,True,False,Completed,2026-06-18,2026-06-20,413.0,4.0,2 days,True,False,2
+R-5277,Central,City bike,1 helmet,True,False,True,Completed,2026-04-12,2026-04-18,1017.0,,6 days,False,False,1
+R-5330,Södermalm,Cargo bike,2 helmets,True,True,True,Completed,2026-05-20,2026-05-25,2003.0,4.0,5 days,True,False,2
+R-5399,Södermalm,E-bike,1 helmet,True,True,True,Cancelled,2026-06-19,2026-06-20,,,1 days,False,False,1
+R-5036,Central,City bike,2 helmets,True,True,True,Completed,2026-04-18,2026-04-21,540.0,5.0,3 days,True,False,2
+R-5048,Östermalm,City bike,3 helmets,False,False,True,Completed,2026-04-01,2026-04-04,523.5,4.0,3 days,True,False,3
+R-5145,Central,City bike,3 helmets,False,False,True,Completed,2026-08-14,2026-08-15,199.5,5.0,1 days,True,False,3
+R-5122,Kungsholmen,E-bike,2 helmets,False,True,False,No-show,2026-09-10,2026-09-14,1584.0,,4 days,False,False,2
+R-5285,Södermalm,E-bike,2 helmets,False,True,True,Completed,2026-08-04,2026-08-05,459.5,5.0,1 days,True,False,2
+R-5388,Södermalm,E-bike,,True,False,True,Completed,2026-08-17,2026-08-22,1710.5,4.0,5 days,True,False,
+R-5384,Östermalm,City bike,1 child helmet,False,False,True,Completed,2026-09-09,2026-09-13,723.0,3.0,4 days,True,True,1
+R-5197,Kungsholmen,City bike,1 helmet,False,False,True,Completed,2026-03-27,2026-03-29,372.5,5.0,2 days,True,False,1
+R-5257,Östermalm,Cargo bike,No helmets,False,False,True,Completed,2026-07-19,2026-07-23,1703.5,4.0,4 days,True,False,0
+R-5139,Östermalm,E-bike,1 child helmet,False,True,True,Completed,2026-06-01,2026-06-05,1636.5,3.0,4 days,True,True,1
+R-5370,Kungsholmen,City bike,2 helmets,True,False,True,Completed,2026-07-07,2026-07-10,473.0,5.0,3 days,True,False,2
+R-5331,Hammarby,City bike,No helmets,False,False,True,Completed,2026-06-16,2026-06-18,358.5,4.0,2 days,True,False,0
+R-5107,Södermalm,E-bike,No helmets,False,True,True,Completed,2026-08-03,2026-08-05,770.5,4.0,2 days,True,False,0
+R-5008,Central,City bike,1 helmet,False,False,True,Completed,2026-09-11,2026-09-12,194.0,5.0,1 days,True,False,1
+R-5372,Södermalm,City bike,1 helmet,False,True,True,Completed,2026-04-20,2026-04-22,448.0,5.0,2 days,True,False,1
+R-5378,Östermalm,E-bike,1 helmet,False,True,False,Completed,2026-08-14,2026-08-21,2941.0,2.0,7 days,True,False,1
+R-5366,Kungsholmen,City bike,1 child helmet,False,False,True,Cancelled,2026-07-01,2026-07-02,,,1 days,False,True,1
+R-5191,Kungsholmen,E-bike,1 child helmet,True,False,True,Completed,2026-03-28,2026-04-01,1247.5,4.0,4 days,True,True,1
+R-5234,Södermalm,City bike,No helmets,True,False,True,Completed,2026-03-16,2026-03-19,495.0,5.0,3 days,True,False,0
+R-5021,Kungsholmen,Cargo bike,2 helmets,False,True,True,Completed,2026-03-12,2026-03-18,2797.5,5.0,6 days,True,False,2
+R-5374,Östermalm,E-bike,2 helmets,False,False,True,Completed,2026-04-26,2026-04-30,1671.0,5.0,4 days,True,False,2
+R-5272,Södermalm,E-bike,2 helmets,False,False,False,Completed,2026-03-28,2026-03-29,365.5,5.0,1 days,True,False,2
+R-5393,Södermalm,Cargo bike,1 helmet,False,True,True,No-show,2026-06-13,2026-06-17,1702.0,,4 days,False,False,1
+R-5290,Östermalm,City bike,1 helmet,False,True,True,Cancelled,2026-06-15,2026-06-22,,,7 days,False,False,1
+R-5078,Hammarby,E-bike,1 child helmet,False,True,True,Completed,2026-08-13,2026-08-17,1680.5,4.0,4 days,True,True,1
+R-5046,Södermalm,E-bike,2 helmets,False,True,True,Cancelled,2026-07-11,2026-07-14,,,3 days,False,False,2
+R-5355,Östermalm,Cargo bike,1 helmet,False,True,True,Completed,2026-05-23,2026-05-29,2600.0,5.0,6 days,True,False,1
+R-5318,Östermalm,City bike,1 helmet,True,False,False,Completed,2026-08-03,2026-08-04,169.5,4.0,1 days,True,False,1
+R-5361,Östermalm,City bike,1 child helmet,False,True,True,Completed,2026-04-07,2026-04-13,1236.0,2.0,6 days,True,True,1
+R-5219,Södermalm,City bike,1 helmet,False,False,True,No-show,2026-06-04,2026-06-05,177.0,,1 days,False,False,1
+R-5356,Hammarby,City bike,2 helmets,False,False,True,Completed,2026-07-29,2026-07-31,349.0,4.0,2 days,True,False,2
+R-5249,Södermalm,City bike,1 helmet,False,True,True,Completed,2026-08-09,2026-08-16,1400.0,5.0,7 days,True,False,1
+R-5135,Central,Cargo bike,1 child helmet,True,False,True,Completed,2026-05-29,2026-05-31,806.0,3.0,2 days,True,True,1
+R-5201,Östermalm,City bike,2 helmets,False,False,False,Completed,2026-05-06,2026-05-08,413.5,,2 days,False,False,2
+R-5396,Östermalm,City bike,3 helmets,False,False,True,No-show,2026-03-13,2026-03-14,192.5,,1 days,False,False,3
+R-5110,Södermalm,E-bike,2 helmets,False,False,True,Completed,2026-05-08,2026-05-09,365.5,,1 days,False,False,2
+R-5392,Östermalm,E-bike,1 helmet,False,False,False,Completed,2026-04-10,2026-04-13,1158.5,5.0,3 days,True,False,1
+R-5063,Central,E-bike,2 helmets,True,True,False,Completed,,2026-08-09,755.5,5.0,,True,False,2
+R-5292,Central,City bike,2 helmets,False,True,True,Completed,2026-06-15,2026-06-17,437.5,4.0,2 days,True,False,2
+R-5092,Hammarby,Cargo bike,1 helmet,False,False,True,Completed,2026-06-17,2026-06-23,2850.5,2.0,6 days,True,False,1
+R-5245,Central,City bike,1 helmet,False,True,True,Completed,2026-07-11,2026-07-15,856.5,5.0,4 days,True,False,1
+R-5062,Kungsholmen,E-bike,1 child helmet,True,True,True,Completed,2026-05-24,2026-05-29,1665.0,5.0,5 days,True,True,1
+R-5000,Hammarby,E-bike,1 child helmet,False,False,False,Completed,2026-04-28,2026-04-29,427.5,4.0,1 days,True,True,1
+R-5027,Central,E-bike,2 helmets,True,True,True,Completed,2026-09-13,2026-09-18,1636.5,1.0,5 days,True,False,2
+R-5373,Östermalm,City bike,2 helmets,False,True,True,Completed,2026-05-24,2026-05-31,1307.5,3.0,7 days,True,False,2
+R-5250,Östermalm,E-bike,1 helmet,True,False,True,Completed,2026-03-28,2026-03-30,601.0,5.0,2 days,True,False,1
+R-5177,Hammarby,City bike,1 helmet,True,False,True,Completed,2026-06-12,2026-06-13,159.5,5.0,1 days,True,False,1
+R-5187,Kungsholmen,Cargo bike,1 helmet,False,True,True,Completed,2026-03-09,2026-03-10,502.5,5.0,1 days,True,False,1
+R-5148,Södermalm,City bike,1 helmet,True,True,True,Completed,2026-08-12,2026-08-15,547.0,,3 days,False,False,1
+R-5239,Kungsholmen,City bike,1 helmet,False,False,True,Completed,2026-08-05,2026-08-08,582.0,5.0,3 days,True,False,1
+R-5354,Hammarby,City bike,No helmets,True,True,True,Completed,2026-04-29,2026-05-01,385.5,,2 days,False,False,0
+R-5341,Södermalm,City bike,2 helmets,False,False,False,Completed,2026-08-13,2026-08-15,384.5,5.0,2 days,True,False,2
+R-5158,Södermalm,E-bike,No helmets,False,True,True,Completed,2026-04-06,2026-04-11,1921.5,4.0,5 days,True,False,0
+R-5143,Kungsholmen,City bike,1 helmet,False,False,True,No-show,2026-05-28,2026-05-29,172.5,,1 days,False,False,1
+R-5273,Central,Cargo bike,No helmets,False,False,True,Completed,2026-04-09,2026-04-10,484.0,,1 days,False,False,0
+R-5059,Central,City bike,1 helmet,False,False,False,Completed,2026-05-12,2026-05-13,195.5,3.0,1 days,True,False,1
+R-5202,Södermalm,E-bike,2 helmets,False,False,True,Completed,2026-08-07,2026-08-09,761.0,4.0,2 days,True,False,2
+R-5343,Östermalm,City bike,No helmets,False,False,True,No-show,2026-04-24,2026-04-25,207.5,,1 days,False,False,0
+R-5149,Södermalm,E-bike,2 helmets,False,True,True,Completed,2026-05-22,2026-05-26,1519.5,,4 days,False,False,2
+R-5123,Central,City bike,1 helmet,False,False,True,Completed,2026-09-06,2026-09-07,171.0,,1 days,False,False,1
+R-5311,Kungsholmen,City bike,No helmets,False,False,True,Completed,2026-08-27,2026-09-01,966.5,3.0,5 days,True,False,0
+R-5016,Södermalm,City bike,1 helmet,True,True,True,Completed,2026-04-14,2026-04-16,371.0,,2 days,False,False,1
+R-5224,Central,E-bike,3 helmets,False,True,False,Completed,2026-06-28,2026-06-29,462.0,,1 days,False,False,3
+R-5358,Södermalm,E-bike,1 helmet,True,False,True,Cancelled,2026-07-25,2026-07-27,,,2 days,False,False,1
+R-5229,Östermalm,City bike,3 helmets,False,True,True,Completed,2026-05-06,2026-05-08,429.0,5.0,2 days,True,False,3
+R-5308,Hammarby,City bike,1 child helmet,False,True,False,Completed,2026-04-04,2026-04-05,253.5,5.0,1 days,True,True,1
+R-5398,Kungsholmen,E-bike,2 helmets,False,False,True,Completed,2026-03-27,2026-04-01,1933.0,5.0,5 days,True,False,2
+R-5097,Central,City bike,No helmets,False,True,True,No-show,2026-06-01,2026-06-03,443.0,,2 days,False,False,0
+R-5125,Central,Cargo bike,1 helmet,False,True,False,Completed,2026-08-18,2026-08-23,2085.0,5.0,5 days,True,False,1
+R-5061,Kungsholmen,Cargo bike,1 child helmet,False,False,True,Completed,2026-04-30,2026-05-03,1425.5,,3 days,False,True,1
+R-5081,Östermalm,E-bike,No helmets,False,True,False,Completed,2026-04-23,2026-04-24,444.5,2.0,1 days,True,False,0
+R-5324,Kungsholmen,City bike,1 helmet,False,True,False,No-show,2026-08-25,2026-08-29,778.0,,4 days,False,False,1
+R-5056,Södermalm,E-bike,2 helmets,True,True,True,Completed,2026-09-10,2026-09-16,2044.0,,6 days,False,False,2
+R-5019,Östermalm,City bike,3 helmets,True,True,True,Completed,2026-08-25,2026-08-27,407.5,5.0,2 days,True,False,3
+R-5086,Central,Cargo bike,1 helmet,True,True,True,Completed,2026-03-28,2026-04-04,2880.0,5.0,7 days,True,False,1
+R-5326,Central,E-bike,2 helmets,False,False,True,Completed,2026-08-02,2026-08-06,1536.5,5.0,4 days,True,False,2
+R-5246,Central,City bike,1 child helmet,False,True,True,Completed,2026-04-22,2026-04-26,789.0,3.0,4 days,True,True,1
+R-5137,Östermalm,City bike,2 helmets,False,False,True,Completed,2026-06-13,2026-06-18,914.0,,5 days,False,False,2
+R-5316,Central,City bike,1 helmet,False,True,True,Cancelled,2026-04-26,2026-05-01,,,5 days,False,False,1
+R-5034,Kungsholmen,Cargo bike,1 helmet,True,True,True,Completed,2026-05-30,2026-05-31,465.0,4.0,1 days,True,False,1
+R-5296,Hammarby,E-bike,1 child helmet,True,True,False,Completed,2026-07-05,2026-07-06,406.0,,1 days,False,True,1
+R-5138,Kungsholmen,City bike,1 child helmet,True,True,True,Completed,2026-07-20,2026-07-23,498.5,4.0,3 days,True,True,1
+R-5254,Kungsholmen,City bike,2 helmets,False,False,False,Completed,2026-08-30,2026-09-03,687.0,3.0,4 days,True,False,2
+R-5076,Central,Cargo bike,2 helmets,False,True,False,Completed,2026-07-23,2026-07-27,2012.0,3.0,4 days,True,False,2
+R-5026,Central,Cargo bike,No helmets,False,True,True,Completed,2026-08-03,2026-08-06,1464.5,3.0,3 days,True,False,0
+R-5288,Hammarby,City bike,No helmets,True,True,True,Completed,2026-03-01,2026-03-02,213.0,5.0,1 days,True,False,0
+R-5043,Hammarby,City bike,1 helmet,False,True,True,Completed,2026-04-09,2026-04-10,250.5,,1 days,False,False,1
+R-5096,Kungsholmen,E-bike,2 helmets,False,False,False,Completed,2026-08-18,2026-08-20,849.5,,2 days,False,False,2
+R-5083,Hammarby,City bike,2 helmets,False,True,True,Completed,2026-05-24,2026-05-27,609.0,5.0,3 days,True,False,2
+R-5252,Södermalm,Cargo bike,3 helmets,False,False,False,Completed,2026-07-13,2026-07-16,1349.0,5.0,3 days,True,False,3
+R-5185,Södermalm,E-bike,1 helmet,False,True,False,Completed,2026-05-21,2026-05-23,797.0,,2 days,False,False,1
+R-5073,Central,City bike,1 helmet,True,True,True,Completed,2026-07-12,2026-07-17,811.5,5.0,5 days,True,False,1
+R-5248,Kungsholmen,City bike,1 helmet,False,True,True,Completed,2026-07-25,2026-07-27,456.0,5.0,2 days,True,False,1
+R-5247,Central,Cargo bike,1 child helmet,False,False,True,Completed,2026-03-29,2026-03-30,469.5,5.0,1 days,True,True,1
+R-5233,Östermalm,City bike,1 helmet,False,True,True,Completed,2026-04-14,2026-04-16,472.0,5.0,2 days,True,False,1
+R-5271,Östermalm,City bike,1 child helmet,True,False,True,Completed,2026-08-24,2026-08-29,751.5,4.0,5 days,True,True,1
+R-5136,Hammarby,City bike,2 helmets,False,False,True,Cancelled,2026-04-05,2026-04-06,,,1 days,False,False,2
+R-5295,Kungsholmen,City bike,1 helmet,False,True,False,Cancelled,2026-07-06,2026-07-08,,,2 days,False,False,1
+R-5049,Kungsholmen,E-bike,2 helmets,False,False,False,Completed,2026-05-04,2026-05-09,1819.0,5.0,5 days,True,False,2
+R-5207,Södermalm,City bike,No helmets,False,False,True,Completed,2026-08-27,2026-08-28,198.5,5.0,1 days,True,False,0
+R-5389,Södermalm,City bike,1 helmet,True,False,True,Completed,2026-07-15,2026-07-16,160.0,4.0,1 days,True,False,1
+R-5387,Södermalm,City bike,1 helmet,False,False,True,Completed,2026-08-21,2026-08-23,359.0,3.0,2 days,True,False,1
+R-5132,Kungsholmen,City bike,2 helmets,True,True,True,Completed,2026-03-05,2026-03-06,219.0,,1 days,False,False,2
+R-5050,Södermalm,City bike,1 helmet,False,True,True,Completed,2026-05-06,2026-05-11,1083.5,5.0,5 days,True,False,1
+R-5238,Kungsholmen,City bike,1 helmet,False,True,True,Completed,2026-08-23,2026-08-27,794.5,4.0,4 days,True,False,1
+R-5052,Kungsholmen,City bike,No helmets,False,True,True,Completed,2026-03-26,2026-03-28,443.5,4.0,2 days,True,False,0
+R-5080,Kungsholmen,Cargo bike,1 helmet,True,False,True,Cancelled,2026-05-07,2026-05-11,,,4 days,False,False,1
+R-5031,Hammarby,Cargo bike,1 helmet,False,True,False,Cancelled,2026-06-21,2026-06-23,,,2 days,False,False,1
+R-5121,Central,E-bike,1 helmet,False,True,False,Completed,2026-06-16,2026-06-21,1964.5,3.0,5 days,True,False,1
+R-5211,Östermalm,E-bike,1 helmet,False,False,True,Completed,2026-07-17,2026-07-21,1507.5,3.0,4 days,True,False,1
+R-5351,Södermalm,City bike,1 child helmet,False,True,True,Completed,2026-06-22,2026-06-27,1010.0,5.0,5 days,True,True,1
+R-5302,Kungsholmen,E-bike,No helmets,False,True,True,Completed,2026-05-18,2026-05-24,2180.5,3.0,6 days,True,False,0
+R-5196,Hammarby,E-bike,2 helmets,False,True,True,Completed,2026-08-07,2026-08-12,1818.5,5.0,5 days,True,False,2
+R-5088,Kungsholmen,E-bike,1 helmet,False,False,False,Completed,2026-06-08,2026-06-12,1622.0,5.0,4 days,True,False,1
+R-5325,Central,E-bike,1 helmet,False,False,True,Completed,2026-05-04,2026-05-09,1930.5,5.0,5 days,True,False,1
+R-5323,Kungsholmen,City bike,1 child helmet,False,False,False,Completed,2026-05-15,2026-05-16,192.0,5.0,1 days,True,True,1
+R-5255,Hammarby,City bike,2 helmets,False,False,True,Cancelled,2026-07-01,2026-07-03,,,2 days,False,False,2
+R-5058,Central,City bike,No helmets,False,False,True,Completed,2026-07-31,2026-08-03,596.0,5.0,3 days,True,False,0
+R-5033,Östermalm,City bike,1 child helmet,False,True,False,Completed,2026-05-05,2026-05-08,686.5,1.0,3 days,True,True,1
+R-5038,Central,E-bike,2 helmets,False,False,False,Completed,2026-07-11,2026-07-14,1258.0,5.0,3 days,True,False,2
+R-5359,Hammarby,E-bike,1 helmet,True,False,True,Completed,2026-04-25,2026-04-29,1366.5,5.0,4 days,True,False,1
+R-5051,Central,E-bike,No helmets,False,False,False,Completed,2026-05-11,2026-05-15,1454.5,5.0,4 days,True,False,0
+R-5363,Hammarby,E-bike,1 helmet,True,False,True,Cancelled,2026-04-30,2026-05-06,,,6 days,False,False,1
+R-5260,Östermalm,E-bike,No helmets,False,False,True,Completed,2026-03-19,2026-03-20,414.0,5.0,1 days,True,False,0
+R-5102,Hammarby,City bike,No helmets,False,False,False,Completed,2026-05-29,2026-05-31,380.0,5.0,2 days,True,False,0
+R-5195,Kungsholmen,City bike,1 helmet,False,True,False,Completed,2026-08-09,2026-08-12,609.5,1.0,3 days,True,False,1
+R-5167,Södermalm,City bike,2 helmets,False,True,True,Completed,2026-06-25,2026-06-27,438.5,4.0,2 days,True,False,2
+R-5293,Södermalm,City bike,No helmets,True,True,True,No-show,2026-03-29,2026-04-02,720.0,,4 days,False,False,0
+R-5116,Kungsholmen,E-bike,3 helmets,False,False,True,Completed,2026-08-02,2026-08-06,1628.5,5.0,4 days,True,False,3
+R-5124,Östermalm,City bike,2 helmets,False,True,True,Cancelled,2026-09-09,2026-09-11,,,2 days,False,False,2
+R-5218,Hammarby,E-bike,1 child helmet,False,,True,Completed,2026-04-16,2026-04-20,1489.0,4.0,4 days,True,True,1
+R-5287,Kungsholmen,City bike,No helmets,True,True,True,No-show,2026-07-02,2026-07-03,230.5,,1 days,False,False,0
+R-5319,Central,City bike,1 helmet,True,True,False,Completed,2026-05-15,2026-05-18,580.0,5.0,3 days,True,False,1
+R-5047,Central,City bike,2 helmets,False,True,True,Completed,2026-07-31,2026-08-07,1262.0,4.0,7 days,True,False,2
+R-5213,Södermalm,City bike,1 helmet,False,True,True,Completed,2026-04-19,2026-04-20,251.0,4.0,1 days,True,False,1
+R-5397,Östermalm,City bike,1 helmet,False,False,True,Completed,2026-04-08,2026-04-09,194.5,3.0,1 days,True,False,1
+R-5095,Hammarby,City bike,No helmets,False,True,True,Completed,2026-09-08,2026-09-09,232.5,4.0,1 days,True,False,0
+R-5162,Södermalm,City bike,1 helmet,False,True,True,Cancelled,2026-03-15,2026-03-17,,,2 days,False,False,1
+R-5263,Central,City bike,No helmets,True,True,True,Completed,2026-09-01,2026-09-04,508.5,5.0,3 days,True,False,0
+R-5360,Central,City bike,1 helmet,False,True,False,Completed,2026-09-13,2026-09-19,1220.0,5.0,6 days,True,False,1
+R-5299,Kungsholmen,Cargo bike,2 helmets,True,False,True,No-show,2026-07-26,2026-08-02,2748.5,,7 days,False,False,2
+R-5022,Östermalm,City bike,1 helmet,True,False,True,Completed,2026-08-20,2026-08-23,476.5,4.0,3 days,True,False,1
+R-5072,Östermalm,City bike,2 helmets,False,False,False,Completed,2026-08-08,2026-08-09,175.5,4.0,1 days,True,False,2
+R-5015,Kungsholmen,City bike,1 helmet,False,False,False,Completed,2026-03-06,2026-03-10,779.0,5.0,4 days,True,False,1
+R-5168,Central,City bike,1 helmet,False,False,False,Completed,2026-08-27,2026-09-01,964.0,4.0,5 days,True,False,1
