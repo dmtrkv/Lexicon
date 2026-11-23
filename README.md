@@ -8,8 +8,13 @@ Lexicon is a collection of Python learning labs and small projects. The exercise
 - `Labs/SQL/` — SQL practice, including webshop and cinema examples.
 - `Labs/NoSQL/` — MongoDB connection, query, and webshop seed exercises.
 - `Labs/API/` — HTTP client exercises, API integrations, and a FastAPI movie API.
+- `Labs/Data/` — Jupyter notebooks, CSV datasets, and image assets for data analysis labs.
 - `Checkpoints/` — checkpoint-style Python practice.
 - `Projects/Bookable/` — an interactive in-memory booking system demo.
+
+## Data labs
+
+The `Labs/Data/` folder contains Jupyter notebooks (`lab1.ipynb`–`lab8.ipynb`) and the datasets and image files they use. The CSV files include bike rental, library member and loan, webshop order, customer, and accommodation listing data; both original and cleaned versions are provided for some datasets.
 
 ## Requirements
 
